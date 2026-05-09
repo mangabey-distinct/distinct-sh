@@ -5,6 +5,12 @@ All notable changes to the Distinct VS Code extension are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
+## [0.8.8] - 2026-05-09
+
+### Added
+
+- Initial addition of LICENSE file for the VS Code extension.
+
 ## [0.8.6] - 2026-05-09
 
 ### Added
