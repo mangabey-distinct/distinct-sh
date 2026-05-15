@@ -7,15 +7,15 @@ DISTINCT can send **anonymous usage information** to help us understand how the 
 In plain terms, we may record things like:
 
 - **Extension health** — whether startup and main services completed successfully and how long key steps took.
-- **Feature usage** — that you used a capability (for example running a query, exporting results, syncing schema, signing in, testing a connection, or using chat), whether it succeeded or failed, and **how long it took**.
+- **Feature usage** — that you used a capability (for example running a query, exporting results, syncing schema, signing in, testing a connection, saving a knowledge item, or using chat), whether it succeeded or failed, and **how long it took**.
 - **Safe numbers** — things like how many rows or columns were in an export, how long a query took, or the **length of your query in characters** (not the SQL text itself), or how many file attachments you added to a chat message (not the message text).
-- **Chat and AI (summary only)** — for assistant features we may log which **model** was used and **token counts**, and which **tool** ran when a tool succeeds. We do **not** upload your prompts, replies, or tool inputs and outputs.
+- **MCP tools** — when a DISTINCT MCP tool runs, we may record the **tool name** (for example `run_query`, `search_context`) and whether it finished without throwing. We do **not** record tool **arguments** or return payloads.
 - **AI table analysis** — that indexing or analysis steps ran, how long they took, and high-level counts. We do **not** upload the text we analyzed.
 - **UI usage** — that you opened a screen or used a control (using internal labels, not what you typed).
 - **Some settings** — that a tracked setting was turned on or off, or otherwise changed. We do **not** record the actual value (for example, not your project id or connection details).
 - **Errors (safe summary only)** — a **short internal error category or code** (for example, that something was a permission or timeout issue). We do **not** send the full error message or stack trace, which could sometimes contain sensitive details.
 
-We also attach **non-identifying context** such as a random **session id**, which **warehouse type** you are using (for example BigQuery vs Snowflake), which **editor** host you are in, and **when** the event happened.
+We also attach context such as a random **session id**, which **warehouse type** you are using (for example BigQuery vs Snowflake), which **editor** host you are in, and **when** the event happened. When you are **signed in**, we include an opaque **user id** (not your email), whether you use **individual** or **team** mode, and when you are in team mode your **tenant id** (an opaque org identifier), so we can understand usage per account and organization.
 
 ## What we never collect
 

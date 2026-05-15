@@ -5,6 +5,34 @@ All notable changes to the Distinct VS Code extension are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
+## [0.8.10] - 2026-05-15
+
+### Added
+
+- Guided **first-time experience** on the Home page with steps and a progress indicator.
+- Option to **open the Home page when the extension starts** (toggle from Home).
+- **Refresh datasets** from the settings page.
+- **SQL completion settings** on the Home settings page (for example table names with project IDs and backticks), applied to the BigQuery language server.
+- **Run** and **copy** actions for queries from the query UI.
+- **Copy to clipboard** for knowledge items and for table identifiers in the schema explorer.
+- **Table info banner** when refreshing table statistics hits your configured data scan limit, with a quick link to settings.
+
+### Changed
+
+- Updated **bigquery-sql-completion** to **0.3.2** with improved language server integration.
+- **Charts** in the extension now use Recharts.
+- **Long queries** are supported reliably (large SQL is stored so it is no longer limited by record size).
+- **Vertex AI** connections use the **global** location as default if not set to ither location.
+- Refined **usage analytics** (telemetry events and fields).
+- Visual updates across the extension: colors, icons, search toggle, data view tabs, parameters panel, and schema explorer.
+- **Data grid** behavior when tabs have a lot of rows and columns.
+- **SQL parameters** panel redesigned for clearer editing.
+- Updated the embedded **Distinct** BigQuery skill used by agent integrations.
+
+### Fixed
+
+- **Data view tabs**: warning export filename and sticky headers that are allways visible.
+
 ## [0.8.9] - 2026-05-09
 
 ### Added
