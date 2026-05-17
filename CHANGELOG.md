@@ -5,6 +5,21 @@ All notable changes to the Distinct VS Code extension are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
+## [0.9.0] - 2026-05-17
+
+This **minor** bump reflects a more **stable** extension build, released together with a **better website** for Distinct.
+
+### Added
+
+- **Data grid**: **select all** (Ctrl/Cmd+A), clearer **row selection** and copy for full-row selections, smoother **scroll** behavior, and faster row-height updates; **search** within a table's columns in the schema explorer.
+- Shortcuts for **AI chat**: add the current table, paste the editor selection, and **fix SQL with the agent** from query errors or table info.
+
+### Changed
+
+- Clearer **signed-out** messaging and small **sign-in** improvements.
+- Simpler **Home** extension settings and removal of the in-app **version update banner**.
+- Marketplace **README** updated with new screenshots.
+
 ## [0.8.10] - 2026-05-15
 
 ### Added
