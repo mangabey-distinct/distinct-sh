@@ -5,6 +5,18 @@ All notable changes to the Distinct VS Code extension are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
+## [0.9.2] - 2026-05-19
+
+### Added
+
+- **Pin tabs** in the data view: pin a result tab so rerunning a query opens a new tab instead of replacing the pinned one.
+
+### Changed
+
+- **Data grid**: smoother column sizing when switching tabs or showing the grid again (layout remeasurement when a panel becomes visible or active).
+- **Select all** (Ctrl/Cmd+A) in the data grid: eligibility updates correctly when switching between dock panels.
+- Marketplace **README**: **About us** section with team photos and LinkedIn links.
+
 ## [0.9.1] - 2026-05-19
 
 ### Added
