@@ -5,6 +5,18 @@ All notable changes to the Distinct VS Code extension are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
+## [0.9.1] - 2026-05-19
+
+### Added
+
+- **Home** page: **Use AI** info box describing the `/distinct` skill and making tables accessible to agents.
+
+### Changed
+
+- **Home** page layout: navigation cards appear first; the **What can I do with DISTINCT?** tips section sits below with a clearer heading and a two-column grid.
+- **Home** info boxes: refined styling and hover state; shortcut labels use consistent **Cmd** / **Ctrl** spelling on macOS.
+- Marketplace **README** links to [distinct.sh](https://distinct.sh/) for more about the extension.
+
 ## [0.9.0] - 2026-05-17
 
 This **minor** bump reflects a more **stable** extension build, released together with a **better website** for Distinct.

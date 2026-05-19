@@ -1,6 +1,8 @@
 # BigQuery extension for agentic VS Code based IDEs
 **DISTINCT** makes it easy to work with **BigQuery** in agentic VS Code based IDEs. It provides tools for querying, exploring the data, and giving the AI agent controlled access to the BigQuery.
 
+Read more about the extension on our website: [distinct.sh](https://distinct.sh/)
+
 ## AI Access to BigQuery
 ### An extensive MCP for BigQuery
 The extension automatically installs an MCP that Cursor can use for querying your data and effectively searching content, as well as skills tailored to data work.
