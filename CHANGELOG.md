@@ -5,6 +5,12 @@ All notable changes to the Distinct VS Code extension are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
+## [0.9.3] - 2026-05-19
+
+### Changed
+
+- Marketplace **README**: team photos use sized HTML images so they display at a consistent width in the marketplace listing.
+
 ## [0.9.2] - 2026-05-19
 
 ### Added
