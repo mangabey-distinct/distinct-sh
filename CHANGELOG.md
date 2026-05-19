@@ -5,6 +5,12 @@ All notable changes to the Distinct VS Code extension are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
+## [0.9.5] - 2026-05-19
+
+### Changed
+
+- Marketplace **README**: **About us** team section uses HTML layout with smaller photos (75px) and LinkedIn links with safe `rel` attributes for consistent marketplace rendering.
+
 ## [0.9.3] - 2026-05-19
 
 ### Changed

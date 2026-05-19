@@ -12,11 +12,13 @@ Read more about the extension and us on our website: [distinct.sh](https://disti
 ### About us
 We are two data scientists in Stockholm, Sweden, working in gaming and banking who also build some nice data tools. Please reach out on LinkedIn if you have feedback.
 
-**Leo Enge** | [My LinkedIn](https://www.linkedin.com/in/leo-enge-52608a78/)
-<img src="media/readme/leo.png" alt="Leo Enge" width="150" />
+<p><strong>Leo Enge</strong> | <a href="https://www.linkedin.com/in/leo-enge-52608a78/" target="_blank" rel="noreferrer noopener nofollow">My LinkedIn</a>
+<p>
+<img src="media/readme/leo.png" alt="Leo Enge" width="75"></p></p>
 
-**Christoffer Ejemyr** | [My LinkedIn](https://www.linkedin.com/in/christoffer-ejemyr/)
-<img src="media/readme/chris.png" alt="Christoffer Ejemyr" width="150" />
+<p><strong>Christoffer Ejemyr</strong> | <a href="https://www.linkedin.com/in/christoffer-ejemyr/" target="_blank" rel="noreferrer noopener nofollow">My LinkedIn</a>
+<p>
+<img src="media/readme/chris.png" alt="Christoffer Ejemyr" width="75"></p></p>
 
 ---
 
