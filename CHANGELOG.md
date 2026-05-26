@@ -5,6 +5,20 @@ All notable changes to the Distinct VS Code extension are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
+## [0.9.6] - 2026-05-26
+
+### Added
+
+- **Optional sign-in**: use the extension without an account when allowed — run local queries, manage datasets, and use individual mode with data stored on your machine.
+- **Send feedback** without signing in, with an optional contact email field when you want a reply.
+- **Local MCP** for unsigned individual users (same local server as when signed in to an individual account).
+
+### Changed
+
+- **Signed-out** screen: when sign-in is optional, copy explains that local data and queries need no account; sign-in is presented as unlocking account features.
+- **Home** and **Settings** are usable without sign-in when auth is not required; sign-in remains available from the header.
+- Extension access follows a remote **access policy** (`extension_auth_required`) instead of always requiring sign-in on launch.
+
 ## [0.9.5] - 2026-05-19
 
 ### Changed
