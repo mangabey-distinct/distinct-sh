@@ -5,6 +5,13 @@ All notable changes to the Distinct VS Code extension are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
+## [0.9.7] - 2026-05-28
+
+### Fixed
+
+- **Without sign-in**: datasets and the schema explorer load correctly; table edits and schema sync work when using the extension locally without an account.
+- **Optional sign-in**: the local data layer stays stable across auth updates — no unnecessary rebuilds or race conditions when sign-in state changes.
+
 ## [0.9.6] - 2026-05-26
 
 ### Added
