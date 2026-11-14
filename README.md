@@ -1,6 +1,10 @@
 # BigQuery extension for agentic VS Code based IDEs
 **DISTINCT** makes it easy to work with **BigQuery** in agentic VS Code based IDEs. It provides tools for querying, exploring the data, and giving the AI agent controlled access to the BigQuery.
 
+## Requirements
+
+**Docker** (Docker Desktop or another Docker-compatible CLI with Compose) is required for local use — DISTINCT runs its on-machine services in containers. Install Docker before using schema sync, knowledge, SQL completions, and the local MCP.
+
 ## What is DISTINCT?
 **The extension does two things:**
 
