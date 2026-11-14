@@ -5,6 +5,18 @@ All notable changes to the Distinct VS Code extension are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
+## [0.10.1] - 2026-11-14
+
+### Fixed
+
+- **Marketplace package**: republish with the container-based local runtime (Docker Compose). Marketplace 0.10.0 shipped a pre-cutover host bundle; install **0.10.1** or newer for container startup.
+
+## [0.10.0] - 2026-11-14
+
+### Changed
+
+- **Local services** run as version-pinned containers (schema PocketBase, Context API, SQL language server) supervised by Docker Compose instead of host binaries.
+
 ## [0.9.7] - 2026-05-28
 
 ### Fixed
