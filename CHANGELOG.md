@@ -5,6 +5,19 @@ All notable changes to the Distinct VS Code extension are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
+## [0.10.2] - 2026-11-15
+
+### Fixed
+
+- **FTUE Context ready**: after connecting AI and recreating the local Context API with embeddings, the home page shows full runtime status instead of staying in limited mode.
+- **FTUE startup**: **Context ready** no longer stays on “waiting”; startup progress dismisses once activation completes.
+- **Table Info** and schema webviews: load without blocking on PocketBase realtime; staged startup with clearer handling when initialization is still in progress.
+
+### Changed
+
+- **Query-only FTUE**: simplified finish step when you are not setting up AI context.
+- **Schema PocketBase**: smarter readiness checks before mounting schema webviews (container runtime only; host PocketBase binary removed).
+
 ## [0.10.1] - 2026-11-14
 
 ### Fixed
