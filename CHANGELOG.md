@@ -5,6 +5,25 @@ All notable changes to the Distinct VS Code extension are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 
+## [0.11.0] - 2026-11-18
+
+### Added
+
+- **Individual MCP in Docker**: local MCP runs as a container with Streamable HTTP, so AI tools stay available without a separate stdio process.
+- **AI runtime settings** on Home and in FTUE, with clearer connect-AI and **runtime snapshot** status while local services start.
+- **AI service locality**: choose how AI credentials and routing work for local vs team setups.
+
+### Changed
+
+- **Local runtime orchestration**: Context API, MCP, SQL language server, and AI runtime are applied through a single snapshot-driven pipeline instead of ad hoc restarts.
+- **AI completions and indexing** use the local **AI runtime** sidecar; legacy in-extension API key paths for those flows are removed.
+- **Schema Explorer**, **Table Info**, and **Home** keep **AI accessible** table flags in sync immediately when you toggle them (no waiting on polling).
+
+### Fixed
+
+- **FTUE Connect AI** gating and context-ready flow align with the new runtime snapshot.
+- Retired Gemini model defaults updated so connection tests surface actionable errors instead of opaque 404s.
+
 ## [0.10.2] - 2026-11-15
 
 ### Fixed
